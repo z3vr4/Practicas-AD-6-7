@@ -489,4 +489,5 @@ public ResponseEntity<?> saveEmpleado(@Valid @RequestBody EmpleadoEntity emplead
 }
 ```
 
-No he puesto las validaciones en este proyecto, pero deberia entenderse como se hacen.
+
+Las validaciones no las he puesto en el readme pero son 3 paginas del final del pdf, basicamente meter anotaciones como @NotNull a una entity y en el Controller verificar que es @Valid en los parámetros del método.
